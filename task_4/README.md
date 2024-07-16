@@ -4,3 +4,6 @@
 * Добавьте ещё один файл в текущий каталог $(pwd) на хостовой машине.
 * Подключитесь во второй контейнер и отобразите листинг и содержание файлов в /data контейнера.
 В качестве ответа приложите скриншоты консоли, где видно все введенные команды и их вывод.
+
+![изображение](https://github.com/stepynin-georgy/hw_netology_docker/blob/main/task_4/Screenshot_11.png)
+![изображение](https://github.com/stepynin-georgy/hw_netology_docker/blob/main/task_4/Screenshot_12.png)
