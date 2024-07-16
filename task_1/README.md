@@ -1,0 +1,1 @@
+https://hub.docker.com/repository/docker/stepynin/custom_nginx/general
