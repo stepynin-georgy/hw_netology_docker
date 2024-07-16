@@ -37,7 +37,6 @@ c31d64d94172   custom_nginx:1.0.0   "/docker-entrypoint.…"   20 hours ago   Ex
 ```
 
 1. `docker start custom-nginx-t2`
-1. 
 ```
 [root@hw-netology hw]# docker exec -ti custom-nginx-t2 bash
 root@c31d64d94172:/# apt-get update
@@ -74,4 +73,8 @@ curl: (56) Recv failure: Connection reset by peer
 
 Внешний порт 8080 пробрасывает на 80 порт внутри контейнера. Т.к. nginx'ом прослушывается 81 порт, то и 127.0.0.1:8080 не будет работать. 
 
-1. `[root@hw-netology hw]# docker rm --force custom-nginx-t2`
+2. `[root@hw-netology hw]# docker rm --force custom-nginx-t2`
+
+![изображение](https://github.com/stepynin-georgy/hw_netology_docker/blob/main/task_3/Screenshot_5.png)
+![изображение](https://github.com/stepynin-georgy/hw_netology_docker/blob/main/task_3/Screenshot_8.png)
+![изображение](https://github.com/stepynin-georgy/hw_netology_docker/blob/main/task_3/Screenshot_9.png)
