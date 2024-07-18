@@ -50,7 +50,9 @@ services:
 
 
 
-1. Если существуют оба файла, Compose предпочитает канонический compose.yaml.
+1. Путь по умолчанию для файла Compose — compose.yaml(предпочтительно) или compose.yml, который находится в рабочем каталоге. Compose также поддерживает docker-compose.yamlи docker-compose.ymlдля обратной совместимости с более ранними версиями. Если существуют оба файла, Compose предпочитает канонический compose.yaml.
+
+![изображение](https://github.com/stepynin-georgy/hw_netology_docker/blob/main/task_5/Screenshot_14.png)
 
 2. 
 ```
@@ -74,8 +76,11 @@ services:
     - "5000:5000"
 ```
 
-3. 
-4.
-5.
-6.
+3. ![изображение](https://github.com/stepynin-georgy/hw_netology_docker/blob/main/task_5/Screenshot_15.png)
+4. ![изображение](https://github.com/stepynin-georgy/hw_netology_docker/blob/main/task_5/Screenshot_16.png)
+5. ![изображение](https://github.com/stepynin-georgy/hw_netology_docker/blob/main/task_5/Screenshot_18.png)
+![изображение](https://github.com/stepynin-georgy/hw_netology_docker/blob/main/task_5/Screenshot_18.png)
+6. ![изображение](https://github.com/stepynin-georgy/hw_netology_docker/blob/main/task_5/Screenshot_19.png)
 7. При удалении одного из файлов, высвечивается предупреждение о ненужных контейнерах , предлагается их удалить командой --remove-orphans
+
+![изображение](https://github.com/stepynin-georgy/hw_netology_docker/blob/main/task_5/Screenshot_20.png)
